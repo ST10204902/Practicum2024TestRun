@@ -13,14 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"
         android:layout_marginBottom="24dp">
-        <TextView
-            android:id="@+id/ColumnsTxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Day | Min | Max | Conditions"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"
-            android:textSize="24sp"/>
+        <LinearLayout
+            android:id="@+id/scrollLinearLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
     </ScrollView>
 
     <androidx.appcompat.widget.AppCompatButton
